@@ -1,7 +1,41 @@
 .header {
 	background-color: #238AC5;
 	height: 48px;
+	padding-left: 10px;
 }
+
+.headerlogo {
+	background-color: #FFFFFF;
+	width: 12px;
+	height: 32px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+	margin-right: 5px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.headerwordpress{
+	background-color: #FFFFFF;
+	width: 90px;
+	height: 32px;
+	padding-left: 60px;
+	border-left: 5px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	border-color: #238AC5;
+	float: left;
+}
+.headerloginbox{
+	background-color: #146FA9;
+	height: 48px;
+	width: 75px;
+	padding-bottom: 2px solid #105F96;
+	float: right;
+
+}
+
 .firstpage{
 	background-color: #354052;
 	padding-bottom: 45px; 
@@ -48,11 +82,28 @@
 	background-color: #FFFFFF;
 	margin:30px auto;
 }
+.smallfeaturesboxicon{
+	background-color: ##626E81;
+	float: left;
+	width: 48px;
+	height: 48px;	
+}
+
+.smallfeaturesboxdescription{
+	background-color: ##626E81;
+	float: right;
+	width: 48px;
+	height: 48px;
+
+}
 
 .WordpressisEasy {
 	background-color: #E8F0F6;
 	height: 188px;
 	width: 100%;
+}
+.wordpressblurb {
+	font-size: 
 }
 
 .bigfeaturesboxbackground{
