@@ -4,7 +4,7 @@
 }
 .firstpage{
 	background-color: #354052;
-	padding-bottom: 60px; 
+	padding-bottom: 45px; 
 
 }
 .text1 {
@@ -35,22 +35,72 @@
 }
 
 .NextPageBox1 {
-	height: 15px;
-	width: 40px;
+	height: 18px;
+	width: 47px;
 	background-color: #FFFFFF;
 	border: 1px solid #FFFFFF;
 	margin:200px auto 125px auto;
 }
 
 .smallfeaturesbox {
-	height: 69px;
+	height: 67px;
 	width: 300px;
 	background-color: #FFFFFF;
-	margin:15px auto;
+	margin:30px auto;
 }
 
 .WordpressisEasy {
 	background-color: #E8F0F6;
-	height: 190px;
+	height: 188px;
 	width: 100%;
+}
+
+.bigfeaturesboxbackground{
+	background-color: #D0D2D6;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 4px;
+	padding-bottom: 4px; 
+}
+
+.bigfeaturesbox{
+	background-color: #FFFFFF;
+	height: 215px;
+	margin: 28px auto; 
+
+}
+.finalbuttonbackground {
+	background-color: #E7EFF5;
+	padding-top: 55px;
+	padding-bottom: 20px;
+
+}
+
+.finalbutton{
+	height: 50px;
+	width: 208;
+	background-color: #238AC5;
+	margin-left:150px;
+	margin-right: 150px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+.footer{
+	background-color: black;
+	padding-top: 100px;
+	padding-bottom: 20px;
+
+}
+.footertext{
+	font-family: sans-serif;
+	color:white;
+	text-align: center;
+	font-size: 12px;
+}
+.footerbox{
+	height: 25px;
+	width: 100px;
+	background-color: white;
+	margin:0 auto;
 }
