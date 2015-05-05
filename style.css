@@ -1,0 +1,56 @@
+.header {
+	background-color: #238AC5;
+	height: 48px;
+}
+.firstpage{
+	background-color: #354052;
+	padding-bottom: 60px; 
+
+}
+.text1 {
+	color: white;
+	font-size: 32px;
+	font-family: sans-serif;
+	padding-top: 160px;
+	padding-left: 52px;
+	padding-right: 52px;
+	text-align: center;
+}
+.text2 {
+	color: white;
+	font-size: 16px;
+	font-family: sans-serif;
+	padding-top: 28px;
+	padding-right: 100px;
+	padding-left: 100px;
+	text-align: center;
+}
+
+.CreateWebsiteBox{
+	background-color: #238AC5;
+	width: 210px;
+	border:10px solid #212935;
+	height: 50px;
+	margin: 30px auto;
+}
+
+.NextPageBox1 {
+	height: 15px;
+	width: 40px;
+	background-color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	margin:200px auto 125px auto;
+}
+
+.smallfeaturesbox {
+	height: 69px;
+	width: 300px;
+	background-color: #FFFFFF;
+	margin:15px auto;
+}
+
+.WordpressisEasy {
+	background-color: #E8F0F6;
+	height: 190px;
+	width: 100%;
+}
