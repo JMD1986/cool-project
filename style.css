@@ -4,33 +4,39 @@
 	padding-left: 10px;
 }
 
+/*after doing the top banner with absolute 
+widths and lengths and margins I realize 
+it's probably not the best way to go. going 
+to have to debug this later.*/
+
 .headerlogo {
 	background-color: #FFFFFF;
-	width: 12px;
+	width: 5px;
 	height: 32px;
 	padding-left: 20px;
 	padding-right: 20px;
 	float: left;
-	margin-right: 5px;
+	margin-right: 8px;
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
 
 .headerwordpress{
 	background-color: #FFFFFF;
-	width: 90px;
+	width: 70px;
 	height: 32px;
 	padding-left: 60px;
-	border-left: 5px;
+	border-left: 20px;
 	margin-top: 8px;
 	margin-bottom: 8px;
 	border-color: #238AC5;
 	float: left;
 }
+
 .headerloginbox{
 	background-color: #146FA9;
 	height: 48px;
-	width: 75px;
+	width: 65px;
 	padding-bottom: 2px solid #105F96;
 	float: right;
 
@@ -41,6 +47,7 @@
 	padding-bottom: 45px; 
 
 }
+
 .text1 {
 	color: white;
 	font-size: 32px;
@@ -50,6 +57,7 @@
 	padding-right: 52px;
 	text-align: center;
 }
+
 .text2 {
 	color: white;
 	font-size: 16px;
@@ -83,17 +91,20 @@
 	margin:30px auto;
 }
 .smallfeaturesboxicon{
-	background-color: ##626E81;
+	background-color: #626E81;
+	width: 55px;
+	height: 55px;
+	margin-top:13px;
 	float: left;
-	width: 48px;
-	height: 48px;	
 }
 
 .smallfeaturesboxdescription{
-	background-color: ##626E81;
+	background-color: #626E81;
 	float: right;
-	width: 48px;
-	height: 48px;
+	width: 233px;
+	height: 56px;
+	margin-right: 3px;
+
 
 }
 
@@ -118,8 +129,32 @@
 	background-color: #FFFFFF;
 	height: 215px;
 	margin: 28px auto; 
-
+	padding-right: 15px;
+	padding-left: 15px;
 }
+
+.bigfeaturesboxicon{
+	background-color: #C8D2D9;
+	border: 1px solid #C8D2D9;
+	margin: 20px auto 10px auto;
+	height: 67px;
+	width: 67px;
+}
+
+.bigfeaturesboxhook{
+	background-color: #C8D2D9;
+	height: 12px;
+	margin-bottom: 10px;
+}
+
+.bigfeaturesboxdescription{
+	background-color: #C8D2D9;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+
 .finalbuttonbackground {
 	background-color: #E7EFF5;
 	padding-top: 55px;
@@ -143,12 +178,20 @@
 	padding-bottom: 20px;
 
 }
-.footertext{
+.footertext1{
 	font-family: sans-serif;
 	color:white;
 	text-align: center;
 	font-size: 12px;
 }
+
+.footertext2{
+	font-family: sans-serif;
+	color:white;
+	text-align: center;
+	font-size: 12px;
+}
+
 .footerbox{
 	height: 25px;
 	width: 100px;
