@@ -3,11 +3,6 @@
 	height: 48px;
 }
 
-/*after doing the top banner with absolute 
-widths and lengths and margins I realize 
-it's probably not the best way to go. going 
-to have to debug this later.*/
-
 .headerlogo {
 	width: 32px;
 	height: 32px;
@@ -15,12 +10,12 @@ to have to debug this later.*/
 	float: left;
 	margin-top: 8px;
 	margin-bottom: 8px;
-	/*will use https://raw.githubusercontent.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/master/images/logo.png */
 }
 
 .headerlogo img{
 	height: 31px;
 	width: auto;
+	float: left;
 }
 
 .headerwordpress{
@@ -37,7 +32,8 @@ to have to debug this later.*/
 	font-size: 16px;
 	font-family: sans-serif;
 	color:white;
-	padding-top: 20px;
+	padding-top: 10px;
+	float: left;
 }
 /*.otherwordpress{
 	font-size: 14px;
@@ -49,11 +45,17 @@ to have to debug this later.*/
 	background-color: #146FA9;
 	height: 48px;
 	width: 65px;
-	padding-bottom: 2px solid #105F96;
 	float: right;
+	text-align: center;
 
 }
 
+.loginboxtext{
+	font-size: 14px;
+	font-family: sans-serif;
+	color: white;
+	padding-top: 14px;
+}
 .firstpage{
 	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/crowd.jpg?raw=true"); 
 	padding-bottom: 45px; 
@@ -88,10 +90,6 @@ to have to debug this later.*/
 	text-align: center;
 	padding-top: 13px;
 }
-
-.NextPageBox1{
-	font-size: 18px;
-}
 .CreateWebsiteBox{
 	background-color: #238AC5;
 	width: 210px;
@@ -101,29 +99,28 @@ to have to debug this later.*/
 }
 
 .NextPageBox1 {
-	height: 18px;
+	font-size: 50px;
 	width: 47px;
-	background-color: #FFFFFF;
-	border: 1px solid #FFFFFF;
+	color: white;
 	margin:200px auto 125px auto;
+	text-align: center;
 }
 
 .smallfeaturesbox {
 	height: 67px;
 	width: 300px;
-	background-color: #354052;
 	margin:30px auto;
 }
 .smallfeaturesboxicon{
 	/*background-color: white;*/
 	width: 55px;
 	height: 55px;
+	border-radius: 50px;
 	margin-top:13px;
 	float: left;
 }
 
 .smallfeaturesboxdescription{
-	background-color: #354052;
 	float: right;
 	width: 233px;
 	height: 56px;
@@ -181,8 +178,18 @@ to have to debug this later.*/
 .icon {
 	background-color: #C8D2D9;
 	margin:0 auto;
-	height: 62px;
-	width: 62px;
+	height: 60px;
+	width: 60px;
+		border-radius: 50px;
+
+}
+
+.icon img{
+display: block;
+padding-top: 10px;
+margin: auto;
+height: 40px;
+width: auto;
 }
 
 .saying {
