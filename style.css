@@ -28,33 +28,49 @@
 	border-color: #238AC5;
 	float: left;
 }
-.wordpressblue {
-	font-size: 16px;
-	font-family: sans-serif;
-	color:white;
-	padding-top: 10px;
+
+.headerwordpress2{
+	background-color: #238AC5;
+	width: 117px;
+	height: 32px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-left: 15px;
+	border-color: #238AC5;
 	float: left;
 }
-/*.otherwordpress{
-	font-size: 14px;
-	font-family: arial;
-	color:#9ECCE7;
-}*/
+
+.wordpressblue {
+	font-size: 17px;
+	font-family: helvetica;
+	color: white;
+	font-weight: lighter;
+	padding-top: 6px;
+	float: left;
+}
+.otherwordpress{
+	font-size: 17px;
+	font-family: helvetica;
+	color: #8BC3E2;
+	font-weight: lighter;
+	padding-top: 6px;
+	float: left
+}
 
 .headerloginbox{
 	background-color: #146FA9;
 	height: 48px;
-	width: 65px;
+	width: 75px;
 	float: right;
 	text-align: center;
 
 }
 
 .loginboxtext{
-	font-size: 14px;
+	font-size: 12px;
 	font-family: sans-serif;
 	color: white;
-	padding-top: 14px;
+	padding-top: 16px;
 }
 .firstpage{
 	background-image: url("https://github.com/TIY-Austin-Front-End-Engineering/mobile-layout-2/blob/master/images/crowd.jpg?raw=true"); 
@@ -151,11 +167,12 @@
 .wordpressblurb {
 	color: #324158;
 	font-size: 25px;
-	font-weight: 2;
-	font-family: arial;
+	font-weight: lighter;
+	font-family: helvetica;
 	margin:0 auto;
 	text-align: center;
 	word-spacing: 3;
+	line-height: 150%;
 	padding-top: 13px;}
 
 .bigfeaturesboxbackground{
@@ -181,6 +198,7 @@
 	height: 60px;
 	width: 60px;
 		border-radius: 50px;
+
 
 }
 
@@ -233,7 +251,7 @@ width: auto;
 
 .text8{
 	font-size: 25px;
-	font-family: sans-serif;
+	font-family: helvetica;
 	text-align: center;
 	font-weight: 1px;
 }
@@ -281,4 +299,5 @@ width: auto;
 .footerbox img {
 	height: 25px;
 	width: auto;
+	display: block;
 }
